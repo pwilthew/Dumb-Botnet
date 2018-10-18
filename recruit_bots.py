@@ -8,7 +8,7 @@ that have reached out so far.
 import ipaddress
 from pwn import *
 
-BOTS_IPS = 'botnets_ips.txt'
+BOTS_IPS = 'bots_ips.txt'
 LPORT = 11111
 
 

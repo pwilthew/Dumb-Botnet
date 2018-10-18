@@ -5,7 +5,7 @@ import time
 from pwn import *
 
 LPORT = 11111
-BOTS_IPS = 'botnets_ips.txt'
+BOTS_IPS = 'bots_ips.txt'
 FORMAT = """
 ---
 \033[1;31mBot:\033[1;0m {bot}
